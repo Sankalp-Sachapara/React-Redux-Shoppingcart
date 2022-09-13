@@ -50,9 +50,9 @@ const Header = () => {
     <>
       <Navbar bg="dark" variant="dark" style={{height:"60px"}}>
         <Container>
-          <NavLink to="/React-Redux-Shoppingcart" className="text-decoration-none text-light mx-3">Add to Cart</NavLink>
+          <NavLink to="/" className="text-decoration-none text-light mx-3">Add to Cart</NavLink>
           <Nav className="me-auto">
-            <NavLink to="/React-Redux-Shoppingcart" className="text-decoration-none text-light">Home</NavLink>
+            <NavLink to="/" className="text-decoration-none text-light">Home</NavLink>
           </Nav>
           <Badge badgeContent={getData.length} color="primary"
             id="basic-button"
